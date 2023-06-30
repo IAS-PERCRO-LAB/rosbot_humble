@@ -26,5 +26,5 @@ docker run -it --rm \
   --group-add tty --group-add dialout --group-add uucp \
   -v /dev:/dev \
   --name rosbot-ros2-container \
-  husarion/arm64:humble
+  husarion/amd64:humble
   # husarion/rosbot-xl-gazebo:humble-0.3.0-20230204
